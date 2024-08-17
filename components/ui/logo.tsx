@@ -1,12 +1,12 @@
 import Link from "next/link";
 
-import phytovoltLogo from '../assets/phytovolt-logo-green.png'
+import ExtentionLogo from '../assets/logo-extention.jpg'
 import Image from "next/image";
 
 export default function Logo() {
   return (
     <Link href="/" className="inline-flex" aria-label="Phytovolt">
-        <Image src={phytovoltLogo} alt="Phytovolt" width={124} height={56} />
+        <Image src={ExtentionLogo} alt="Phytovolt" width={65}/>
       {/*<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28">*/}
       {/*  <path*/}
       {/*    className="fill-blue-500"*/}

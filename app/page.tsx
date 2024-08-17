@@ -3,32 +3,32 @@ export const metadata = {
     icons: {
         icon: '/favicon.ico', // Default favicon
         shortcut: '/favicon-16x16.png', // Shortcut icon (optional)
-        apple: '/apple-touch-icon.png', // Apple touch icon
+        apple: '/logo-extention.jpg', // Apple touch icon
         other: [
             {
                 rel: 'icon',
-                url: '/favicon-32x32.png',
+                url: '/logo-extention.jpg',
                 sizes: '32x32',
-                type: 'image/png',
+                type: 'image/jpg',
             },
             {
                 rel: 'icon',
-                url: '/android-chrome-192x192.png',
+                url: '/logo-extention.jpg',
                 sizes: '192x192',
-                type: 'image/png',
+                type: 'image/jpg',
             },
             {
                 rel: 'icon',
-                url: '/android-chrome-512x512.png',
+                url: '/logo-extention.jpg',
                 sizes: '512x512',
-                type: 'image/png',
+                type: 'image/jpg',
             },
         ],
     },
 };
 
 import Hero from "@/components/hero-home";
-// import AlgaeProblem from "@/components/algae-problem";
+import AlgaeProblem from "@/components/algae-problem";
 import OurSolution from "@/components/our-solution";
 import HeroContact from "@/components/hero-contact";
 
@@ -36,7 +36,7 @@ export default function Home() {
     return (
         <>
             <Hero/>
-            {/*<AlgaeProblem />*/}
+            <AlgaeProblem />
             <OurSolution/>
             {/*<LargeTestimonial />*/}
             {/*<Cta />*/}

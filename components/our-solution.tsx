@@ -1,25 +1,60 @@
 import Image from "next/image";
-import PlanetImg from "@/components/assets/phytovolt-solution.png";
+import CoverImg from "@/components/assets/cover.jpg";
+import Exmple1Img from "@/components/assets/exmple1.jpeg";
 
 export default function OurSolution() {
   return (
-    <section id="technology" className="relative h-screen before:absolute before:inset-0 before:-z-20 before:bg-green-50 flex flex-col justify-center">
+    <section
+      id="technology"
+      className="relative h-screen before:absolute before:inset-0 before:-z-20 before:bg-green-50 flex flex-col justify-center"
+    >
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
-            <h2 className="text-5xl font-bold text-green-600 md:text-6xl font-amatic">
-              Our solution for your industrial needs
+            <h2 className="text-5xl font-bold text-indigo-700 md:text-6xl font-amatic">
+              Extention in action
             </h2>
           </div>
           {/* Planet */}
           <div className="pb-16 md:pb-20" data-aos="zoom-y-out">
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "100vh", // Adjust as needed
+              }}
+            >
+              <Image
+                src={Exmple1Img}
+                width={800}
+                height={370}
+                alt="Exmple 1"
+              />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "100vh", // Adjust as needed
+              }}
+            >
+              <Image
+                    src={CoverImg}
+                    width={1200}
+                    height={600}
+                    alt="Cover done right"
+                  />
+            </div>
+
             <div className="text-center">
               <Image
-                  src={PlanetImg}
-                  width={1000}
-                  height={470}
-                  alt="Our solution"
+                src={CoverImg}
+                width={1000}
+                height={470}
+                alt="Cover done right"
               />
             </div>
           </div>
@@ -74,7 +109,8 @@ export default function OurSolution() {
                 <span>Bio-reactors</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Implementing bio-reactors in the facility to maximize the biology of the algae.
+                Implementing bio-reactors in the facility to maximize the
+                biology of the algae.
               </p>
             </article>
             {/*<article>*/}

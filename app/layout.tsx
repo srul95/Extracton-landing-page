@@ -34,26 +34,26 @@ export const metadata = {
     ],
     icons: {
         icon: '/favicon.ico', // Default favicon
-        shortcut: '/favicon-16x16.png', // Shortcut icon (optional)
-        apple: '/apple-touch-icon.png', // Apple touch icon
+        shortcut: '/logo-extention.jpg', // Shortcut icon (optional)
+        apple: '/logo-extention.jpg', // Apple touch icon
         other: [
             {
                 rel: 'icon',
-                url: '/favicon-32x32.png',
+                url: '/logo-extention.jpg',
                 sizes: '32x32',
-                type: 'image/png',
+                type: 'image/jpg',
             },
             {
                 rel: 'icon',
-                url: '/android-chrome-192x192.png',
+                url: '/logo-extention.jpg',
                 sizes: '192x192',
-                type: 'image/png',
+                type: 'image/jpg',
             },
             {
                 rel: 'icon',
-                url: '/android-chrome-512x512.png',
+                url: '/logo-extention.jpg',
                 sizes: '512x512',
-                type: 'image/png',
+                type: 'image/jpg',
             },
         ],
     },
@@ -80,7 +80,7 @@ export default function RootLayout({
 
             <Footer border={true}/>
         </div>
-        {`
+        {/* {`
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-KEMZ79ZZE0"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -89,7 +89,7 @@ export default function RootLayout({
 
             gtag('config', 'G-KEMZ79ZZE0');
         </script>
-`}
+`} */}
         </body>
         </html>
     );

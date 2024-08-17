@@ -15,8 +15,8 @@ export default function HeroHome() {
     return (
         <section id="home" className="relative h-screen">
             {/*<PageIllustration />*/}
-            <img src={'/images/algae/algae-pool.jpg'} alt="algae pool"
-                 className="absolute inset-0 object-cover w-full h-full opacity-40 filter blur-[4px]"/>
+            <img src={'/images/algae/background.jpg'} alt="algae pool"
+                 className="absolute inset-0 object-cover w-full h-full"/>
             <div className="mx-auto max-w-7xl h-full flex flex-col justify-center">
                 {/* Hero content */}
                 {/*<div className="pb-12 pt-50 md:pb-20 md:pt-40">*/}
@@ -28,8 +28,8 @@ export default function HeroHome() {
                             data-aos="zoom-y-out"
                             data-aos-delay={150}
                         >
-                            Revolutionizing Renewable Energy <br className="max-lg:hidden"/>
-                            Through Algae-Based Power Systems
+                            Systematic Data Extractor <br className="max-lg:hidden"/>
+                            {/* Through Algae-Based Power Systems */}
                         </h1>
                         <div className="mx-auto max-w-3xl">
                             <p

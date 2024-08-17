@@ -49,10 +49,10 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="#contact"
-                className="btn shadow-none hover:bg-green-500"
+                href="https://chromewebstore.google.com"// pop up for extwntion on store
+                className="btn shadow-none hover:bg-violet-500 bg-violet-800"
               >
-                Contact
+                Add To Chrome
               </Link>
             </li>
           </ul>
