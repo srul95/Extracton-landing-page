@@ -34,7 +34,7 @@ export default function Header() {
             <li>
               <Link
                 href="#home"
-                className="btn shadow-none hover:bg-green-500"
+                className="btn shadow-none hover:bg-violet-500"
               >
                 Home
               </Link>
@@ -42,7 +42,7 @@ export default function Header() {
             <li>
               <Link
                 href="#technology"
-                className="btn shadow-none hover:bg-green-500"
+                className="btn shadow-none hover:bg-violet-500"
               >
                 Technology
               </Link>
@@ -50,7 +50,7 @@ export default function Header() {
             <li>
               <Link
                 href="https://chromewebstore.google.com"// pop up for extention on store
-                className="btn shadow-none hover:bg-violet-500 bg-violet-800"
+                className="btn shadow-none hover:bg-violet-400 bg-violet-500"
               >
                 Add To Chrome
               </Link>

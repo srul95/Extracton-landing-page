@@ -13,19 +13,21 @@ export default function OurSolution() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
+          <div className=" mx-auto max-w-3xl pb-16 text-center md:pb-20">
             <h2 className="text-5xl font-mono text-indigo-700 md:text-6xl">
               Extention in action
               👇🏼
             </h2>
           </div>
           <div className="pb-16 md:pb-20" data-aos="zoom-y-out">
-            <div className="grid gap-4 grid-cols-2"
+            <div
               style={{
                 display: "flex",
+                flexWrap: "wrap",
+                gap:"30px",
                 justifyContent: "center",
                 alignItems: "center",
-                height: "68vh", // Adjust as needed
+                height: "120vh",
               }}
             >
               <Image
@@ -34,16 +36,6 @@ export default function OurSolution() {
                 height={370}
                 alt="Exmple 1"
               />
-            </div>
-            <div
-              style={{
-                display: "flex",
-                flexWrap: "wrap",
-                justifyContent: "center",
-                alignItems: "center",
-                height: "70vh",
-              }}
-            >
               <Image
                     src={CoverImg}
                     width={1200}
@@ -65,7 +57,6 @@ export default function OurSolution() {
                 height: "100vh", // Adjust as needed
               }}
             >
-              
             </div>
           </div>
           {/* Grid */}

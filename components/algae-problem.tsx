@@ -8,7 +8,7 @@ export default function AlgaeProblem() {
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
             <h2 className="text-5xl font-bold text-green-600 md:text-6xl font-amatic">
-              {/* Our solution for your industrial needs */}
+              Our solution for your industrial needs
             </h2>
           </div>
 

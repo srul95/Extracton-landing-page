@@ -36,7 +36,7 @@ export default function Home() {
     return (
         <>
             <Hero/>
-            <AlgaeProblem />
+            {/* <AlgaeProblem /> */}
             <OurSolution/>
             {/*<LargeTestimonial />*/}
             {/*<Cta />*/}
