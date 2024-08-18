@@ -40,7 +40,7 @@ export default function Home() {
             <OurSolution/>
             {/*<LargeTestimonial />*/}
             {/*<Cta />*/}
-            <HeroContact />
+            {/* <HeroContact /> */}
         </>
     );
 }

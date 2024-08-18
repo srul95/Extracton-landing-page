@@ -3,8 +3,17 @@
 export default function HeroContact() {
     return (
 
-        <section className="relative bg-green-100" id={'contact'}>
-        <div className="mx-auto max-w-7xl h-full flex flex-col justify-center">
+        <section className=" bg-green-100" id={'contact'}>
+        
+        <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "100vh", // Adjust as needed
+              }}
+            >
+              <div className="mx-auto max-w-7xl h-full flex flex-col justify-center">
         {/* Hero content */}
         <div className="pb-2 pt-2 md:pb-3 md:pt-4">
             <iframe
@@ -13,6 +22,9 @@ export default function HeroContact() {
             </iframe>
         </div>
     </div>
+            </div>
+
+        
          </section>
     );
 }

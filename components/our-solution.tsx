@@ -1,29 +1,31 @@
 import Image from "next/image";
 import CoverImg from "@/components/assets/cover.jpg";
 import Exmple1Img from "@/components/assets/exmple1.jpeg";
+import Exmple2Img from "@/components/assets/exmple2.jpeg";
 
 export default function OurSolution() {
   return (
     <section
       id="technology"
-      className="relative h-screen before:absolute before:inset-0 before:-z-20 before:bg-green-50 flex flex-col justify-center"
+      className="relative before:absolute before:inset-0 before:-z-20 before:bg-green-50 flex flex-col fljustify-center"
+      // className="relative h-screen before:absolute before:inset-0 before:-z-20 before:bg-green-50 flex flex-col fljustify-center"
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
-            <h2 className="text-5xl font-bold text-indigo-700 md:text-6xl font-amatic">
+            <h2 className="text-5xl font-mono text-indigo-700 md:text-6xl">
               Extention in action
+              👇🏼
             </h2>
           </div>
-          {/* Planet */}
           <div className="pb-16 md:pb-20" data-aos="zoom-y-out">
-            <div
+            <div className="grid gap-4 grid-cols-2"
               style={{
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                height: "100vh", // Adjust as needed
+                height: "68vh", // Adjust as needed
               }}
             >
               <Image
@@ -36,9 +38,10 @@ export default function OurSolution() {
             <div
               style={{
                 display: "flex",
+                flexWrap: "wrap",
                 justifyContent: "center",
                 alignItems: "center",
-                height: "100vh", // Adjust as needed
+                height: "70vh",
               }}
             >
               <Image
@@ -47,15 +50,22 @@ export default function OurSolution() {
                     height={600}
                     alt="Cover done right"
                   />
-            </div>
-
-            <div className="text-center">
               <Image
-                src={CoverImg}
-                width={1000}
-                height={470}
-                alt="Cover done right"
-              />
+                    src={Exmple2Img}
+                    width={800}
+                    height={600}
+                    alt="Exmple 2"
+                  />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "100vh", // Adjust as needed
+              }}
+            >
+              
             </div>
           </div>
           {/* Grid */}

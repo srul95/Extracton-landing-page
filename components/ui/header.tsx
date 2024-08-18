@@ -49,7 +49,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="https://chromewebstore.google.com"// pop up for extwntion on store
+                href="https://chromewebstore.google.com"// pop up for extention on store
                 className="btn shadow-none hover:bg-violet-500 bg-violet-800"
               >
                 Add To Chrome

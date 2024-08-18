@@ -24,16 +24,16 @@ export default function HeroHome() {
                     {/* Section header */}
                     <div className="pb-12 text-center md:pb-16">
                         <h1
-                            className="mb-6 text-6xl font-lexend font-extralight"
+                            className="mb-6 text-6xl font-mono"
                             data-aos="zoom-y-out"
                             data-aos-delay={150}
                         >
                             Systematic Data Extractor <br className="max-lg:hidden"/>
                             {/* Through Algae-Based Power Systems */}
                         </h1>
-                        <div className="mx-auto max-w-3xl">
+                        <div className="mx-auto max-w-3xl font-mono">
                             <p
-                                className="mb-8 text-lg text-gray-700"
+                                className="mb-8 text-lg text-teal-950	"
                                 data-aos="zoom-y-out"
                                 data-aos-delay={300}
                             >
